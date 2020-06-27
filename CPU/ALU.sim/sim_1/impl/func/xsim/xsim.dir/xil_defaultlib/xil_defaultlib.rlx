@@ -1,0 +1,5 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/adams/Documents/Final Year Project/CPU/ALU.sim/sim_1/impl/func/xsim/DataPath_func_impl.vhd,1578654529,vhdl,,,,add2inbit;add4;add4in;alu;alumux32in;datapath;final;flagzero;fullalu;mux32in;mux5bitin;programcount;programcounter;register_32bit;register_32bit_0;register_32bit_1;register_32bit_10;register_32bit_11;register_32bit_12;register_32bit_13;register_32bit_14;register_32bit_15;register_32bit_16;register_32bit_17;register_32bit_18;register_32bit_19;register_32bit_2;register_32bit_20;register_32bit_21;register_32bit_22;register_32bit_23;register_32bit_24;register_32bit_25;register_32bit_26;register_32bit_27;register_32bit_28;register_32bit_29;register_32bit_3;register_32bit_4;register_32bit_5;register_32bit_6;register_32bit_7;register_32bit_8;register_32bit_9;registerfile;registers;setlessthen;setlessthenu;slthen;slthenu;twoinmux;unadder;unadder32_bit;unsub;unsub32_bit;writeregselect;zeroflag,,,,,,,,

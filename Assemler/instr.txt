@@ -1,0 +1,31 @@
+addi $t0, $0, 0     #   index of iterator
+addi $t4, $0, 2     #   index1 of iterator
+addi $s0, $0, 15    #   limit of loop
+addi $s1, $0, 0     #   first fibonacci num
+addi $s2, $0, 1     #   second fibonacci num
+addi $s3, $0, 0     #   container for the next fibonacci num
+addi $s6, $0, 0     #   $s6 = 0   
+addi $s7, $0, 4     #   $s7 = 4
+sw $s1, 0($s6)      #   store $s1 at $s6 
+sw $s2, 0($s7)      #   store $s2 at $s7
+
+loop:   beq $t4, $s0, result       #   check if index1 == limit; go to result
+        jal fibonacci              #   call fibonacci()     
+        j loop                     #   go to loop 
+
+fibonacci:      add $s3, $s1, $s2      #   add first and second
+                add $s1, $s2, $0       #   swape first with second
+                add $s2, $s3, $0       #   swape second with next
+                sll $t0, $t4, 2        #   $t0 = mul t4 by 4
+                add $t0, $s6, $t0      #   $t0 += $s6
+                sw $s3, 0($t0)         #   store next      
+                addi $t4, $t4, 1       #   $t4 += 1
+                jr $ra                 #   return to the called function
+
+result:    beq $t4, $0, done            #       check if $t4 == 0; go to done
+                sll $t5, $t4, 2         #       $t5 = mul t4 by 4
+                addi $t4, $t4, -1       #       $t4 -= 1
+                lw $s4, 0($t5)          #       $s4 = load the content at memory address 0($t5)
+                j result                #       go to result
+     
+done:   # done

@@ -1,0 +1,20 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ALU.srcs/sources_1/new/AndGate1_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/Enable.vhd" \
+"../../../../ALU.srcs/sources_1/new/OrG.vhd" \
+"../../../../ALU.srcs/sources_1/new/OrGate32_Inputs.vhd" \
+"../../../../ALU.srcs/sources_1/new/RegFiles.vhd" \
+"../../../../ALU.srcs/sources_1/new/TriBuffer.vhd" \
+"../../../../ALU.srcs/sources_1/new/TristateBuffer.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../ALU.srcs/sources_1/new/Decode.vhd" \
+"../../../../ALU.srcs/sources_1/new/Decoder.vhd" \
+"../../../../ALU.srcs/sources_1/new/Register_32Bit.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../ALU.srcs/sources_1/new/RegFile.vhd" \
+
+# Do not sort compile order
+nosort

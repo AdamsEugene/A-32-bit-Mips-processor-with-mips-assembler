@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ALU.srcs/sources_1/new/Adder16_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/Adder1_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/Adder2_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/Adder32_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/Adder4_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/Adder8_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/CPU.vhd" \
+"../../../../ALU.srcs/sources_1/new/ALU.vhd" \
+
+# Do not sort compile order
+nosort

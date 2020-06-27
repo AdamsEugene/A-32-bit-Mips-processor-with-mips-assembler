@@ -1,0 +1,31 @@
+sw [90, 23, 49, 10, 34, 13, 33, 89, 65, 51, 1, 1000, 77, 100], 0($0)
+addi $t6, $0, 14        #       $t6 = len of array 
+addi $t5, $0, 1         #       $t5 = iterator of the outter loop
+
+begin: beq $t6, $t5, done       #       check if end of outter loop; go to done
+        addi $t0, $0, 0         #       $t0 = index of the first element in the array
+        addi $t1, $0, 4         #       $t1 = index of the second element in the array
+        addi $t5, $t5, 1        #       $t5 += 1
+        addi $t7, $0, 1         #       $t7 = iterator of the inner loop      
+
+        loop:   lw $s0, 0($t0)          #       $s0 = load first element (90)
+                lw $s1, 0($t1)          #       $s1 = load second element (23)
+                slt $s2, $s0, $s1       #       $s2 = $s0 < $s1 ? 1 : 0
+               
+                beq $t6, $t7, begin     #       check if end of inner loop; go to begin
+                addi $t7, $t7, 1        #       $t7 += 1
+
+                beq $s2, $0, swap               #       check if $s2 == 0; go to swap()
+                        sw $s0, 0($t0)          #       store $s0 at index 1
+                        sw $s1, 0($t1)          #       store $s1 at index 2
+                        add $t0, $0, $t1        #       put index 1 in index 2
+                        addi $t1, $t1, 4        #       put index 2 = index 2 + 4 for the next address
+                j loop                          #       go to loop again
+
+        #swap()
+        swap:   sw $s0, 0($t1)          #       store $s0 at index 2       
+                sw $s1, 0($t0)          #       store $s1 at index 1
+                add $t0, $0, $t1        #       put index 1 in index 2
+                addi $t1, $t1, 4        #       put index 2 = index 2 + 4 for the next address
+                j loop                  #       go to loop again
+done:

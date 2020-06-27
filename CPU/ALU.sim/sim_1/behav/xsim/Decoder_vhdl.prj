@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl2008 xil_defaultlib  \
+"../../../../ALU.srcs/sources_1/new/Decode.vhd" \
+"../../../../ALU.srcs/sources_1/new/Decoder.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ALU.srcs/sources_1/new/OrGate1.vhd" \
+"../../../../ALU.srcs/sources_1/new/OrGate16.vhd" \
+"../../../../ALU.srcs/sources_1/new/OrGate2.vhd" \
+"../../../../ALU.srcs/sources_1/new/OrGate32.vhd" \
+"../../../../ALU.srcs/sources_1/new/OrGate4.vhd" \
+"../../../../ALU.srcs/sources_1/new/OrGate8.vhd" \
+"../../../../ALU.srcs/sources_1/new/OrGate.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,7 @@
+Running: xsim.dir/ZeroExt_behav/xsimk.exe -simmode gui -wdb ZeroExt_behav.wdb -simrunnum 0 -socket 54297
+Design successfully loaded
+Design Loading Memory Usage: 5644 KB (Peak: 5644 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 6224 KB (Peak: 6224 KB)
+Simulation CPU Usage: 15 ms

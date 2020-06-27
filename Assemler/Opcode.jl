@@ -1,0 +1,28 @@
+base = 2
+op_fu = 6
+Opcode = Dict(
+  "RTYPE" => string(0, base = base, pad = op_fu),
+  "bal" => string(1, base = base, pad = op_fu),
+  "j" => string(2, base = base, pad = op_fu),
+  "jal" => string(3, base = base, pad = op_fu),
+  "beq" => string(4, base = base, pad = op_fu),
+  "bne" => string(5, base = base, pad = op_fu),
+  "blez" => string(6, base = base, pad = op_fu),
+  "bgtz" => string(7, base = base, pad = op_fu),
+  "addi" => string(8, base = base, pad = op_fu),
+  "addiu" => string(9, base = base, pad = op_fu),
+  "slti" => string(10, base = base, pad = op_fu),
+  "sltiu" => string(11, base = base, pad = op_fu),
+  "andi" => string(12, base = base, pad = op_fu),
+  "ori" => string(13, base = base, pad = op_fu),
+  "xori" => string(14, base = base, pad = op_fu),
+  "lui" => string(15, base = base, pad = op_fu),
+  "lb" => string(32, base = base, pad = op_fu),
+  "lh" => string(33, base = base, pad = op_fu),
+  "lw" => string(35, base = base, pad = op_fu),
+  "lbu" => string(36, base = base, pad = op_fu),
+  "lhu" => string(37, base = base, pad = op_fu),
+  "sb" => string(40, base = base, pad = op_fu),
+  "sh" => string(41, base = base, pad = op_fu),
+  "sw" => string(43, base = base, pad = op_fu),
+)

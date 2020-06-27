@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ALU.srcs/sources_1/new/Add2InBit.vhd" \
+"../../../../ALU.srcs/sources_1/new/Add2In.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,7 @@
+Running: xsim.dir/Add9Bits_behav/xsimk.exe -simmode gui -wdb Add9Bits_behav.wdb -simrunnum 0 -socket 49712
+Design successfully loaded
+Design Loading Memory Usage: 5224 KB (Peak: 5224 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 5808 KB (Peak: 5808 KB)
+Simulation CPU Usage: 46 ms

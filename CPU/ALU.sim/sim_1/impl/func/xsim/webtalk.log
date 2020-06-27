@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Jan 10 10:57:42 2020
+# Process ID: 20168
+# Current directory: C:/Users/adams/Documents/Final Year Project/CPU/ALU.sim/sim_1/impl/func/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/adams/Documents/Final Year Project/CPU/ALU.sim/sim_1/impl/func/xsim/xsim.dir/DataPath_func_impl/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/adams/Documents/Final Year Project/CPU/ALU.sim/sim_1/impl/func/xsim/webtalk.log
+# Journal file: C:/Users/adams/Documents/Final Year Project/CPU/ALU.sim/sim_1/impl/func/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/adams/Documents/Final -notrace
+couldn't read file "C:/Users/adams/Documents/Final": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Fri Jan 10 10:57:42 2020...

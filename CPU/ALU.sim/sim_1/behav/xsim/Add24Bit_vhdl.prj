@@ -1,0 +1,166 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ALU.srcs/sources_1/new/Add2InBit.vhd" \
+"../../../../ALU.srcs/sources_1/new/Add4.vhd" \
+"../../../../ALU.srcs/sources_1/new/Adder16_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/Adder1_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/Adder2_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/Adder32.vhd" \
+"../../../../ALU.srcs/sources_1/new/Adder32_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/Adder4_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/Adder8_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/AluMux1.vhd" \
+"../../../../ALU.srcs/sources_1/new/AndGate16_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/AndGate1_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/AndGate2_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/AndGate32.vhd" \
+"../../../../ALU.srcs/sources_1/new/AndGate32_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/AndGate4_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/AndGate8_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/ControlUnits.vhd" \
+"../../../../ALU.srcs/sources_1/new/DataMem.vhd" \
+"../../../../ALU.srcs/sources_1/new/FillLow0.vhd" \
+"../../../../ALU.srcs/sources_1/new/Final.vhd" \
+"../../../../ALU.srcs/sources_1/new/FlagZero.vhd" \
+"../../../../ALU.srcs/sources_1/new/InstrMem.vhd" \
+"../../../../ALU.srcs/sources_1/new/InstrMemory.vhd" \
+"../../../../ALU.srcs/sources_1/new/Memory.vhd" \
+"../../../../ALU.srcs/sources_1/new/MoveFH.vhd" \
+"../../../../ALU.srcs/sources_1/new/MoveFL.vhd" \
+"../../../../ALU.srcs/sources_1/new/MoveFromHi.vhd" \
+"../../../../ALU.srcs/sources_1/new/MoveFromLow.vhd" \
+"../../../../ALU.srcs/sources_1/new/MoveTH.vhd" \
+"../../../../ALU.srcs/sources_1/new/MoveTL.vhd" \
+"../../../../ALU.srcs/sources_1/new/MoveToHigh.vhd" \
+"../../../../ALU.srcs/sources_1/new/MoveToLow.vhd" \
+"../../../../ALU.srcs/sources_1/new/Mux32In.vhd" \
+"../../../../ALU.srcs/sources_1/new/Mux4InBit.vhd" \
+"../../../../ALU.srcs/sources_1/new/Mux5BitIn.vhd" \
+"../../../../ALU.srcs/sources_1/new/MuxHalf.vhd" \
+"../../../../ALU.srcs/sources_1/new/MuxTwoIn.vhd" \
+"../../../../ALU.srcs/sources_1/new/NandGate.vhd" \
+"../../../../ALU.srcs/sources_1/new/NandGate16.vhd" \
+"../../../../ALU.srcs/sources_1/new/NandGate2.vhd" \
+"../../../../ALU.srcs/sources_1/new/NandGate32.vhd" \
+"../../../../ALU.srcs/sources_1/new/NandGate4.vhd" \
+"../../../../ALU.srcs/sources_1/new/NandGate8.vhd" \
+"../../../../ALU.srcs/sources_1/new/NorGate.vhd" \
+"../../../../ALU.srcs/sources_1/new/NorGate16_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/NorGate1_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/NorGate2_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/NorGate32_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/NorGate4_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/NorGate8_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/NotGate.vhd" \
+"../../../../ALU.srcs/sources_1/new/NotGate1.vhd" \
+"../../../../ALU.srcs/sources_1/new/NotGate16.vhd" \
+"../../../../ALU.srcs/sources_1/new/NotGate2.vhd" \
+"../../../../ALU.srcs/sources_1/new/NotGate32.vhd" \
+"../../../../ALU.srcs/sources_1/new/NotGate4.vhd" \
+"../../../../ALU.srcs/sources_1/new/NotGate8.vhd" \
+"../../../../ALU.srcs/sources_1/new/OrGate.vhd" \
+"../../../../ALU.srcs/sources_1/new/OrGate1.vhd" \
+"../../../../ALU.srcs/sources_1/new/OrGate16.vhd" \
+"../../../../ALU.srcs/sources_1/new/OrGate2.vhd" \
+"../../../../ALU.srcs/sources_1/new/OrGate32.vhd" \
+"../../../../ALU.srcs/sources_1/new/OrGate4.vhd" \
+"../../../../ALU.srcs/sources_1/new/OrGate8.vhd" \
+"../../../../ALU.srcs/sources_1/new/ProgramCounter.vhd" \
+"../../../../ALU.srcs/sources_1/new/RegisterFile.vhd" \
+"../../../../ALU.srcs/sources_1/new/SLThen.vhd" \
+"../../../../ALU.srcs/sources_1/new/SLThenU.vhd" \
+"../../../../ALU.srcs/sources_1/new/SetLessThen.vhd" \
+"../../../../ALU.srcs/sources_1/new/SetLessThenU.vhd" \
+"../../../../ALU.srcs/sources_1/new/ShiftLLV.vhd" \
+"../../../../ALU.srcs/sources_1/new/ShiftLLV32.vhd" \
+"../../../../ALU.srcs/sources_1/new/ShiftRAV.vhd" \
+"../../../../ALU.srcs/sources_1/new/ShiftRAV32.vhd" \
+"../../../../ALU.srcs/sources_1/new/ShiftRL.vhd" \
+"../../../../ALU.srcs/sources_1/new/ShiftRLV.vhd" \
+"../../../../ALU.srcs/sources_1/new/ShiftRLV32.vhd" \
+"../../../../ALU.srcs/sources_1/new/SignExt.vhd" \
+"../../../../ALU.srcs/sources_1/new/SignExtension.vhd" \
+"../../../../ALU.srcs/sources_1/new/SimpleMMU.vhd" \
+"../../../../ALU.srcs/sources_1/new/TwoInMux.vhd" \
+"../../../../ALU.srcs/sources_1/new/UnAdder.vhd" \
+"../../../../ALU.srcs/sources_1/new/UnSub.vhd" \
+"../../../../ALU.srcs/sources_1/new/UnSubtract32_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/WriteRegSelect.vhd" \
+"../../../../ALU.srcs/sources_1/new/XorGate.vhd" \
+"../../../../ALU.srcs/sources_1/new/XorGate1.vhd" \
+"../../../../ALU.srcs/sources_1/new/XorGate16.vhd" \
+"../../../../ALU.srcs/sources_1/new/XorGate2.vhd" \
+"../../../../ALU.srcs/sources_1/new/XorGate32.vhd" \
+"../../../../ALU.srcs/sources_1/new/XorGate4.vhd" \
+"../../../../ALU.srcs/sources_1/new/XorGate8.vhd" \
+"../../../../ALU.srcs/sources_1/new/ZeroExt.vhd" \
+"../../../../ALU.srcs/sources_1/new/ZeroFlag.vhd" \
+"../../../../ALU.srcs/sources_1/new/nnnn.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../ALU.srcs/sources_1/new/ALU.vhd" \
+"../../../../ALU.srcs/sources_1/new/ControlUnit.vhd" \
+"../../../../ALU.srcs/sources_1/new/DataMem1.vhd" \
+"../../../../ALU.srcs/sources_1/new/DataPath.vhd" \
+"../../../../ALU.srcs/sources_1/new/F_StageReg.vhd" \
+"../../../../ALU.srcs/sources_1/new/FullALU.vhd" \
+"../../../../ALU.srcs/sources_1/new/Immediate4.vhd" \
+"../../../../ALU.srcs/sources_1/new/JumpInstr.vhd" \
+"../../../../ALU.srcs/sources_1/new/MipsSingleCycleProcessor.vhd" \
+"../../../../ALU.srcs/sources_1/new/ProgramCount.vhd" \
+"../../../../ALU.srcs/sources_1/new/ShiftLL.vhd" \
+"../../../../ALU.srcs/sources_1/new/ShiftLL32.vhd" \
+"../../../../ALU.srcs/sources_1/new/ShiftRA.vhd" \
+"../../../../ALU.srcs/sources_1/new/ShiftRA32.vhd" \
+"../../../../ALU.srcs/sources_1/new/ShiftRL32.vhd" \
+"../../../../ALU.srcs/sources_1/new/SingleCyclePro.vhd" \
+"../../../../ALU.srcs/sources_1/new/SingleCycleProcessor.vhd" \
+"../../../../ALU.srcs/sources_1/new/E_StageReg.vhd" \
+"../../../../ALU.srcs/sources_1/new/M_StageReg.vhd" \
+"../../../../ALU.srcs/sources_1/new/W_StageReg.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../ALU.srcs/sources_1/new/W.vhd" \
+"../../../../ALU.srcs/sources_1/new/M.vhd" \
+"../../../../ALU.srcs/sources_1/new/E.vhd" \
+"../../../../ALU.srcs/sources_1/new/D.vhd" \
+"../../../../ALU.srcs/sources_1/new/ContUnit.vhd" \
+"../../../../ALU.srcs/sources_1/new/SetGrtThen.vhd" \
+"../../../../ALU.srcs/sources_1/new/P_RegisterFile.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../ALU.srcs/sources_1/new/HazardUnit.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../ALU.srcs/sources_1/new/P_FullALU.vhd" \
+"../../../../ALU.srcs/sources_1/new/P_ALU.vhd" \
+"../../../../ALU.srcs/sources_1/new/Comparator.vhd" \
+"../../../../ALU.srcs/sources_1/new/MipsPipelining.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../ALU.srcs/sources_1/new/Reg_File.vhd" \
+"../../../../ALU.srcs/sources_1/new/P_Reg_File.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../ALU.srcs/sources_1/new/P_ProgramCount.vhd" \
+"../../../../ALU.srcs/sources_1/new/Pipelining.vhd" \
+"../../../../ALU.srcs/sources_1/new/MUX3In.vhd" \
+"../../../../ALU.srcs/sources_1/new/Mux8In.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../ALU.srcs/sources_1/new/HandLReg.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../ALU.srcs/sources_1/new/Mips.vhd" \
+"../../../../ALU.srcs/sources_1/new/FPAddSub.vhd" \
+"../../../../ALU.srcs/sources_1/new/Mux24In.vhd" \
+"../../../../ALU.srcs/sources_1/new/Mux8bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/SRL24In.vhd" \
+"../../../../ALU.srcs/sources_1/new/Add24Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/Add24_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/Adder12_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/Adder6_Bit.vhd" \
+"../../../../ALU.srcs/sources_1/new/Adder3_Bit.vhd" \
+
+# Do not sort compile order
+nosort

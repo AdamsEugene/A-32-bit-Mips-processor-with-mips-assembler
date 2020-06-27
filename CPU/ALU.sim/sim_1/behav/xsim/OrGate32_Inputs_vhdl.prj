@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ALU.srcs/sources_1/new/OrG.vhd" \
+"../../../../ALU.srcs/sources_1/new/OrGate32_Inputs.vhd" \
+
+# Do not sort compile order
+nosort

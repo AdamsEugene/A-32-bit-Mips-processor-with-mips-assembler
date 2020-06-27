@@ -1,0 +1,7 @@
+Running: xsim.dir/UnSub32_Bit_behav/xsimk.exe -simmode gui -wdb UnSub32_Bit_behav.wdb -simrunnum 0 -socket 50053
+Design successfully loaded
+Design Loading Memory Usage: 5196 KB (Peak: 5196 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 5672 KB (Peak: 5672 KB)
+Simulation CPU Usage: 0 ms

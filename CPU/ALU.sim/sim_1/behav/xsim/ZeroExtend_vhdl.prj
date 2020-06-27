@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ALU.srcs/sources_1/new/ZeroExt.vhd" \
+"../../../../ALU.srcs/sources_1/new/ZeroExtend.vhd" \
+
+# Do not sort compile order
+nosort

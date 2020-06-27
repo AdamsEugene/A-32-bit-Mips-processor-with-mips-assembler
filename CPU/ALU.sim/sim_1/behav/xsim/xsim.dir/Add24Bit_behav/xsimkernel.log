@@ -1,0 +1,7 @@
+Running: xsim.dir/Add24Bit_behav/xsimk.exe -simmode gui -wdb Add24Bit_behav.wdb -simrunnum 0 -socket 49692
+Design successfully loaded
+Design Loading Memory Usage: 5712 KB (Peak: 5712 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 6328 KB (Peak: 6328 KB)
+Simulation CPU Usage: 62 ms

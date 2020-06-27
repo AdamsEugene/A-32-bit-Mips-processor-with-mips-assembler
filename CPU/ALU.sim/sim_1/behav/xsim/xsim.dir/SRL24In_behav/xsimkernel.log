@@ -1,0 +1,7 @@
+Running: xsim.dir/SRL24In_behav/xsimk.exe -simmode gui -wdb SRL24In_behav.wdb -simrunnum 0 -socket 49696
+Design successfully loaded
+Design Loading Memory Usage: 5604 KB (Peak: 5604 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 6216 KB (Peak: 6216 KB)
+Simulation CPU Usage: 46 ms

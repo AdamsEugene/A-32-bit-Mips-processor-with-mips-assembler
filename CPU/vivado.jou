@@ -1,0 +1,79 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Oct 22 21:35:32 2019
+# Process ID: 6300
+# Current directory: C:/Users/adams/Documents/Final Year Project/CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9264 C:\Users\adams\Documents\Final Year Project\CPU\ALU.xpr
+# Log file: C:/Users/adams/Documents/Final Year Project/CPU/vivado.log
+# Journal file: C:/Users/adams/Documents/Final Year Project/CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/adams/Documents/Final Year Project/CPU/ALU.xpr}
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+close [ open {C:/Users/adams/Documents/Final Year Project/CPU/ALU.srcs/sources_1/new/Final.vhd} w ]
+add_files {{C:/Users/adams/Documents/Final Year Project/CPU/ALU.srcs/sources_1/new/Final.vhd}}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top AluMux32In [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top FullALU [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+refresh_design
+close [ open {C:/Users/adams/Documents/Final Year Project/CPU/ALU.srcs/sources_1/new/NandGate.vhd} w ]
+add_files {{C:/Users/adams/Documents/Final Year Project/CPU/ALU.srcs/sources_1/new/NandGate.vhd}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/adams/Documents/Final Year Project/CPU/ALU.srcs/sources_1/new/NandGate32.vhd} w ]
+add_files {{C:/Users/adams/Documents/Final Year Project/CPU/ALU.srcs/sources_1/new/NandGate32.vhd}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/adams/Documents/Final Year Project/CPU/ALU.srcs/sources_1/new/NandGate16.vhd} w ]
+add_files {{C:/Users/adams/Documents/Final Year Project/CPU/ALU.srcs/sources_1/new/NandGate16.vhd}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/adams/Documents/Final Year Project/CPU/ALU.srcs/sources_1/new/NandGate8.vhd} w ]
+add_files {{C:/Users/adams/Documents/Final Year Project/CPU/ALU.srcs/sources_1/new/NandGate8.vhd}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/adams/Documents/Final Year Project/CPU/ALU.srcs/sources_1/new/NandGate4.vhd} w ]
+add_files {{C:/Users/adams/Documents/Final Year Project/CPU/ALU.srcs/sources_1/new/NandGate4.vhd}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/adams/Documents/Final Year Project/CPU/ALU.srcs/sources_1/new/NandGate2.vhd} w ]
+add_files {{C:/Users/adams/Documents/Final Year Project/CPU/ALU.srcs/sources_1/new/NandGate2.vhd}}
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top NandGate [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+refresh_design
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top FullALU [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+refresh_design
+close [ open {C:/Users/adams/Documents/Final Year Project/CPU/ALU.srcs/sources_1/new/LSL.vhd} w ]
+add_files {{C:/Users/adams/Documents/Final Year Project/CPU/ALU.srcs/sources_1/new/LSL.vhd}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/adams/Documents/Final Year Project/CPU/ALU.srcs/sources_1/new/LSR.vhd} w ]
+add_files {{C:/Users/adams/Documents/Final Year Project/CPU/ALU.srcs/sources_1/new/LSR.vhd}}
+close [ open {C:/Users/adams/Documents/Final Year Project/CPU/ALU.srcs/sources_1/new/ASR.vhd} w ]
+add_files {{C:/Users/adams/Documents/Final Year Project/CPU/ALU.srcs/sources_1/new/ASR.vhd}}
+update_compile_order -fileset sources_1

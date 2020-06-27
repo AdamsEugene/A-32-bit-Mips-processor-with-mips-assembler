@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ALU.srcs/sources_1/new/ShiftLLV32.vhd" \
+"../../../../ALU.srcs/sources_1/new/ShiftLLV.vhd" \
+
+# Do not sort compile order
+nosort

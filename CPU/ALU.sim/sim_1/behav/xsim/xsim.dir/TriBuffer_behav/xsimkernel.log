@@ -1,0 +1,7 @@
+Running: xsim.dir/TriBuffer_behav/xsimk.exe -simmode gui -wdb TriBuffer_behav.wdb -simrunnum 0 -socket 54951
+Design successfully loaded
+Design Loading Memory Usage: 5632 KB (Peak: 5632 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 6200 KB (Peak: 6200 KB)
+Simulation CPU Usage: 31 ms

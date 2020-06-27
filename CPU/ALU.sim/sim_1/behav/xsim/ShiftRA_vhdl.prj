@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl2008 xil_defaultlib  \
+"../../../../ALU.srcs/sources_1/new/ShiftRA32.vhd" \
+"../../../../ALU.srcs/sources_1/new/ShiftRA.vhd" \
+
+# Do not sort compile order
+nosort
